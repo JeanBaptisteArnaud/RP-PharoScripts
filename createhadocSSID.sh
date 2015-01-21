@@ -1,4 +1,5 @@
 #/bin/sh
+sudo apt-get update
 sudo apt-get install hostapd udhcpd -y
 
 sudo echo "start 192.168.0.2 # This is the range of IPs that the hotspot will give to client devices.
